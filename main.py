@@ -12,4 +12,5 @@ def generate_joke():
         print()
         time.sleep(1)
 
-generate_joke()
+if __name__ == "__main__":
+    generate_joke()
